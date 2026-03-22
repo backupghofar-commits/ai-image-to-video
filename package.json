@@ -1,0 +1,20 @@
+{
+  "name": "ai-image-to-video",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Image to Video Generator - Powered by Replicate AI",
+  "scripts": {
+    "dev": "concurrently \"cd backend && npm run dev\" \"serve -s frontend -p 3001\"",
+    "start": "serve -s . -p 3000",
+    "build": "echo 'No build required'"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/backupghofar-commits/ai-image-to-video.git"
+  },
+  "license": "MIT"
+}
